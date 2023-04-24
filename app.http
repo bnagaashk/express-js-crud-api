@@ -1,0 +1,24 @@
+###
+GET http://localhost:3000/players
+
+###
+POST http://localhost:3000/players/
+Content-Type: application/json
+
+{
+"playerName":"nagaashok", 
+"jerseyNumber":222, 
+"role":"sotware"   
+}
+
+###
+PUT http://localhost:3000/players/13
+Content-Type: application/json
+
+{
+"playerName":"nagaashok", 
+"jerseyNumber":5000, 
+"role":"software"   
+}
+###
+DELETE http://localhost:3000/players/12
